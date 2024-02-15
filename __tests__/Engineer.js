@@ -1,0 +1,20 @@
+// TODO: Write code to define and export the Engineer class.  HINT: This class should inherit from Employee.
+import Employee from "./Employee";
+
+class Engineer extends Employee {
+    constructor(name, id, email, github) {
+        // Employee constructor are name, id, email
+        super(name, id, email);
+
+        // Constructor to Engineer
+        this.github = github;
+        // Overide role from parent Employee class
+        this.role = "Engineer";
+    }
+
+    getGithub() {
+        return this.github;
+    }
+}
+
+export default Engineer;
