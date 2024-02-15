@@ -14,5 +14,7 @@ MIT License
 
 ## Deployed Link
 
+https://divine2192.github.io/team-generator/index.js
+
 ## Copyright
 ​© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
